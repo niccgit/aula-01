@@ -20,10 +20,10 @@ else:
      print("Não forma um triângulo!")
 
 
-# (a + b > c) and (a + c > b) and (b + c > a (é a condição de existência de qualquer triângulo: cada lado precisa ser menor que a soma dos outros dois lados)
+# (a + b > c) and (a + c > b) and (b + c > a) (é a condição de existência de qualquer triângulo: cada lado precisa ser menor que a soma dos outros dois lados)
 #
 # a == b and a == c and b == c (é a condição de existência do triângulo equilátero: todos os lados devem ser iguais)
 #
-# a == b or a == c or b == c é a condição de existência do triângulo isósceles: pelo menos dois lados devem ser iguais)
+# a == b or a == c or b == c (é a condição de existência do triângulo isósceles: pelo menos dois lados devem ser iguais)
 #
-# a != b and a != c and b != c é a condição de existência do triângulo escaleno: todos os lados devem ser diferentes)
+# a != b and a != c and b != c (é a condição de existência do triângulo escaleno: todos os lados devem ser diferentes)
