@@ -1,21 +1,35 @@
-aluno = input("Digite o nome do aluno: ")
+# Crie um programa em Python que faça as seguintes perguntas para o aluno:
+#
+# Nome (str)
+# Idade (int) - o cálculo deverá ser feito de acordo com o ano de nascimento 
+# Notas (float) 
+#
+# Depois, calcule a Média baseada nas notas inseridas e calcule a situação final do aluno.
+# 
+# Junte todas as informações e mostre em uma tabela ao final.
+
+
+nome_do_aluno = input("Digite o nome do aluno: ")
+ano_atual = int(input("Digite o ano atual: "))
 ano_de_nascimento = int(input("Digite o ano de nascimento do aluno: "))
-nota1 = float(input("Digite a nota 1 do aluno: "))
-nota2= float(input("Digite a nota 2 do aluno: "))
+
+
+idade = (ano_atual) - (ano_de_nascimento)
+
+nota1 = float(input("Digite a primeira nota do aluno: "))
+nota2 = float(input("Digite a segunda nota do aluno: "))
 
 media = (nota1 + nota2) / 2
 
 if media >= 7:
-    situacao =  "Aprovado!"
+    situacao = "Aprovado!"
 elif media >= 5:
-    situacao = "Recuperacao"
+    situacao = "Recuperação..."
 else:
     situacao = "Reprovado."
 
-ano_atual = 2026
-idade = (ano_atual) - (ano_de_nascimento)
 
-print (f"Aluno: {aluno}")
-print (f"Idade: {idade}")
-print (f"Média: {media}")
-print (f"Situaçao do aluno: {situacao}")
+print(f"Aluno: {nome_do_aluno}")
+print(f"Idade: {idade}")
+print(f"Média do aluno: {media}")
+print(f"Situação do aluno: {situacao}")
