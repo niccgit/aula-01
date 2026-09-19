@@ -1,6 +1,7 @@
 # Crie um algoritmo em Python que leia 3 valores (lados de um triângulo).
 #
 # Primeiro determine se esses valores são suficientes para formar um triângulo.
+#
 # Caso sejam suficientes, verifique se é um triângulo Equilátero, Isósceles ou Escaleno.
 
 
