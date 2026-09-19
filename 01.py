@@ -1,7 +1,7 @@
 # Crie um programa em Python que faça as seguintes perguntas para o aluno:
 #
 # Nome (str)
-# Idade (int) - o cálculo deverá ser feito de acordo com o ano de nascimento 
+# Idade (int) - baseada no ano de nascimento
 # Notas (float) 
 #
 # Depois, calcule a Média baseada nas notas inseridas e calcule a situação final do aluno.
@@ -10,16 +10,21 @@
 
 
 nome_do_aluno = input("Digite o nome do aluno: ")
+
 ano_atual = int(input("Digite o ano atual: "))
+
 ano_de_nascimento = int(input("Digite o ano de nascimento do aluno: "))
 
 
 idade = (ano_atual) - (ano_de_nascimento)
 
+
 nota1 = float(input("Digite a primeira nota do aluno: "))
 nota2 = float(input("Digite a segunda nota do aluno: "))
 
+
 media = (nota1 + nota2) / 2
+
 
 if media >= 7:
     situacao = "Aprovado!"
